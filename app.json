@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "lesson-react-native",
-    "slug": "lesson-react-native",
+    "name": "ProNef Testing",
+    "slug": "pronef-testing",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
@@ -18,16 +18,23 @@
       "**/*"
     ],
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "com.guidofamula.proneftesting"
     },
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#FFFFFF"
-      }
+      },
+      "package": "com.guidofamula.proneftesting"
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "b346a334-bee6-449e-950d-f377c8e7e1ab"
+      }
     }
   }
 }

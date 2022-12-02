@@ -46,7 +46,8 @@ const HomeHeader = ({ onSearch }) => {
 						color: COLORS.white,
 					}}
 				>
-					Welcome Serafina Ella
+					Aplikasi sebatas penerapan tampilan, design UI/UX by
+					dribbble.com/alvxyz
 				</Text>
 
 				<Text
@@ -57,7 +58,7 @@ const HomeHeader = ({ onSearch }) => {
 						marginTop: SIZES.base / 2,
 					}}
 				>
-					Temukan Hal Terbaikmu
+					Welcome to ProNef Testing
 				</Text>
 			</View>
 
